@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontSize="20">
+    <Grid>
+
+        <ScrollViewer x:Name="sc" HorizontalScrollBarVisibility="Auto">
+            <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
+                <TextBlock TextWrapping="Wrap" Width="500">
+                    Haruki Murakami (村上 春樹, Murakami Haruki, born January 12, 1949[1]) is a Japanese writer. His novels, essays, and short stories have been bestsellers in Japan and internationally, with his work translated into 50 languages[2] and having sold millions of copies outside Japan.[3][4] He has received numerous awards for his work, including the Gunzo Prize for New Writers, the World Fantasy Award, the Frank O'Connor International Short Story Award, the Franz Kafka Prize, the Jerusalem Prize and the Princess of Asturias Awards.[5][6][7][8]
+
+Growing up in Ashiya near Kobe before moving to Tokyo to attend Waseda University, he published his first novel Hear the Wind Sing (1979) after working as the owner of a small jazz bar for seven years.[9] His notable works include the novels Norwegian Wood (1987), The Wind-Up Bird Chronicle (1994–95), Kafka on the Shore (2002), and 1Q84 (2009–10), with 1Q84 ranked as the best work of Japan's Heisei era (1989–2019) by the national newspaper Asahi Shimbun's survey of literary experts.[10] His work spans genres including science fiction, fantasy, and crime fiction, and has become known for its use of magical realist elements.[11][12] His official website lists Raymond Chandler, Kurt Vonnegut, and Richard Brautigan as key inspirations to his work, while Murakami himself has cited Kazuo Ishiguro, Cormac McCarthy, and Dag Solstad as his favourite currently active writers.[9][13] Murakami has also published five short story collections, including First Person Singular (2020),[14] and non-fiction works including Underground (1997), inspired by personal interviews Murakami conducted with victims of the Tokyo subway sarin attack, and What I Talk About When I Talk About Running (2007), a series of personal essays about his experience as a marathon runner.[15]
+
+His fiction has polarized literary critics and the reading public. He has sometimes been criticised by Japan's literary establishment as un-Japanese, leading to Murakami's recalling that he was a "black sheep in the Japanese literary world".[16][17][18] Meanwhile, Murakami has been described by Gary Fisketjon, the editor of Murakami's collection The Elephant Vanishes (1993), as a "truly extraordinary writer", while Steven Poole of The Guardian praised Murakami as "among the world's greatest living novelists" for his oeuvre.[19][20]
+                </TextBlock>
+                <Separator />
+                <Rectangle Fill="DodgerBlue" Width="50" Height="900"></Rectangle>
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Window>
